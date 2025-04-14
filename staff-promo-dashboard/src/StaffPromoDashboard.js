@@ -85,7 +85,7 @@ const StaffPromoDashboard = () => {
 
       <div className="promo-box">
         <h2 className="glow-text">📆 Promo Notes</h2>
-        <ul style={{ listStyle: 'none', paddingLeft: 0, fontSize: '1.1rem' }}>
+        <ul>
           <li>✅ Mini/Minor Pays 11AM – 9PM (Fire Links only)</li>
           <li>🎀 Ladies Night $20/$20</li>
           <li>🍕 Pizza Night – Customize date!</li>
@@ -101,45 +101,4 @@ const buttonStyle = {
   padding: '12px 24px',
   fontSize: '1.2rem',
   fontWeight: 'bold',
-  border: '2px solid #000',
-  borderRadius: '12px',
-  cursor: 'pointer',
-  boxShadow: '0 0 15px gold',
-  margin: '10px 0'
-};
-
-const inputStyle = {
-  padding: '10px',
-  fontSize: '1rem',
-  borderRadius: '8px',
-  marginRight: '12px',
-  border: '2px solid gold',
-  width: '250px',
-  background: '#000',
-  color: '#FFD700',
-  textAlign: 'center'
-};
-
-const winnerText = {
-  marginTop: '1rem',
-  fontSize: '1.5rem',
-  color: '#00f7ff',
-  textShadow: '0 0 8px #00f7ff'
-};
-
-const spinText = {
-  fontSize: '4rem',
-  marginTop: '2rem',
-  color: 'greenyellow',
-  textShadow: '0 0 12px lime',
-  letterSpacing: '2px'
-};
-
-const resultText = {
-  fontSize: '3rem',
-  marginTop: '1rem',
-  color: '#0ff',
-  textShadow: '0 0 15px #0ff'
-};
-
-export default StaffPromoDashboard;
+  border
